@@ -1,8 +1,7 @@
-import React from "react"
-import { CurrentDayData } from "./Task_Data"
+import React from "react";
+import { CurrentDayData } from "./Task_Data";
 
-const CurrentDay = () => {
-  return (
+const CurrentDay = () =>  (
     <div className=" sm:mt-[138px] sm:ml-[138px]">
       <div className="flex">
 
@@ -39,8 +38,6 @@ const CurrentDay = () => {
 
       </div>
     </div>
-  )
-}
-
+  );
 
 export default CurrentDay;

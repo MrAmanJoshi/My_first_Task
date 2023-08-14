@@ -1,8 +1,7 @@
-import React from "react"
-import {priviousDayData} from "./Task_Data"
+import React from "react";
+import {priviousDayData} from "./Task_Data";
 
-const PriviousDay =()=>{
-  return (
+const PriviousDay = () => (
 <div className=" sm:mt-12 sm:ml-[138px]">
   <div className="flex">
     
@@ -39,8 +38,6 @@ const PriviousDay =()=>{
 
 </div>
 </div>
-  )
-}
-
+  );
 
 export default PriviousDay;
