@@ -1,4 +1,4 @@
-export const CurrentDayData = [
+export const currentDayData = [
  
     {
       message: "New task assigned to you",
@@ -39,3 +39,12 @@ export const priviousDayData = [
       message: "Finish project documentation for review (1-1 checkin)",
       icon: "https://i.postimg.cc/3wsbhhpw/gg-sand-clock.png"
     }]
+
+export const currentDate = {
+  date: 23, 
+  day: "WED"
+}
+export const priviousDate = {
+  date: 22, 
+  day: "TUE"
+}
