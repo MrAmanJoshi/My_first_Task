@@ -51,6 +51,8 @@ const currentDayData = [
 
 export const dates = [currentDate, priviousDate ]
 
+//Created a new area named Task, inside which there are two arrays which will help in rendering the components separately.
+
 export const  task = [
   currentDayData,
   priviousDayData 
