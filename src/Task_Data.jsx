@@ -1,4 +1,4 @@
-export const currentDayData = [
+ const currentDayData = [
  
     {
       message: "New task assigned to you",
@@ -22,7 +22,7 @@ export const currentDayData = [
     }
      ];
 
-export const priviousDayData = [
+ const priviousDayData = [
     {
       message: "Meeting with Bobby Charlie",
       icon: "https://i.postimg.cc/gktsddbP/7573334-1.png"
@@ -38,13 +38,21 @@ export const priviousDayData = [
     {
       message: "Finish project documentation for review (1-1 checkin)",
       icon: "https://i.postimg.cc/3wsbhhpw/gg-sand-clock.png"
-    }]
+    }];
 
-export const currentDate = {
+ const currentDate = {
   date: 23, 
   day: "WED"
 }
-export const priviousDate = {
+ const priviousDate = {
   date: 22, 
   day: "TUE"
-}
+};
+
+export const dates = [currentDate, priviousDate ]
+
+export const  task = [
+  currentDayData,
+  priviousDayData 
+        
+   ]
