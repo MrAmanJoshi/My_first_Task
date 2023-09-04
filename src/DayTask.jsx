@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "./Profile"
 
 const DayTask = ({data, date}) =>  (
-    <div className=" sm:mt-[138px] sm:ml-[138px] mb-8">
+    <div className="sm:mt-[138px] sm:ml-[138px] mb-8">
       <div className="flex">
 
         <div className=" flex flex-col font-mono z-30 bg-slate-50">
@@ -25,7 +25,7 @@ const DayTask = ({data, date}) =>  (
                 <div>
                   <p className={`font-medium ${index === 0 && date.date === 23 ? "text-green-400" : "text-black "}`}> {data.message}</p>
           
-                  <Profile/>
+                  <Profile />
 
                 </div>
               </div>

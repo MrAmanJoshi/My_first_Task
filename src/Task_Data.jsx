@@ -1,4 +1,4 @@
- const currentDayData = [
+const currentDayData = [
  
     {
       message: "New task assigned to you",

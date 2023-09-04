@@ -4,8 +4,6 @@ import { task, dates} from "./Task_Data";
 
 //Clean App component and export data from Task_Data file. and create two combined arrays task and dates.  
 
-//and I use fragments (<></>)
-
 const App = () => (
  
     <div className="border rounded-lg m-1 max-w-[1440] bg-slate-50 relative pt-8 sm:pt-0">
